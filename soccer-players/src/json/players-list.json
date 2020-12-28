@@ -16,50 +16,50 @@
     {
         "id": 2,
         "name": "Cristiano Ronaldo",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
+        "country": "https://www.graphicmaps.com/r/w1047/images/flags/pt-flag.jpg",
         "Club": "Juventus F.C.",
-        "picture": "https://www.graphicmaps.com/r/w1047/images/flags/pt-flag.jpg"
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"
     },
     {
         "id": 3,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Marcus Rashford",
+        "country": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+        "Club": "Manchester United F.C.",
+        "picture": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png"
     },
     {
         "id": 4,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Thomas Müller",
+        "country": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+        "Club": "FC Bayern Munich",
+        "picture": "https://gsports.live/football/wp-content/uploads/sites/2/2016/08/Thomas-M%C3%BCller.jpg"
     },
     {
         "id": 5,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Mohamed Salah",
+        "country": "https://www.countryflags.com/wp-content/uploads/egypt-flag-png-large.png",
+        "Club": "Liverpool F.C.",
+        "picture": "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png"
     },
     {
         "id": 6,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Sergio Ramos",
+        "country": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png",
+        "Club": "Real Madrid C.F.",
+        "picture": "https://s.hs-data.com/bilder/spieler/gross/19198.jpg"
     },
     {
         "id": 7,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Edinson Cavani",
+        "country": "https://www.indexmundi.com/flags/uy-lgflag.gif",
+        "Club": "Manchester United F.C.",
+        "picture": "https://s.hs-data.com/bilder/spieler/gross/73627.jpg"
     },
     {
         "id": 8,
-        "name": "Kylian Mbappé",
-        "country": "https://img.favpng.com/1/12/3/flag-of-france-wikimedia-commons-png-favpng-KmBX3wbcwr6Smz7uUMPUvCm0w_t.jpg",
-        "Club": "Paris Saint-Germain",
-        "picture": "https://s.hs-data.com/bilder/spieler/gross/284095.jpg"
+        "name": "Sadio Mané",
+        "country": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+        "Club": "Liverpool F.C.",
+        "picture": "https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png"
     }
 ]
