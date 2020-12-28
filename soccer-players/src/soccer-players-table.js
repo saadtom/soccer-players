@@ -21,7 +21,7 @@ export default class SoccerPlayersTable extends Component {
 
     render() {
        return <section className="card">
-           <Table striped bordered>
+           <Table striped bordered className="table">
                <thead>
                 <tr>
                 <th>Name</th>
