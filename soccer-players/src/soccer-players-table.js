@@ -1,32 +1,39 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import './soccer-players-table.css';
+import playersList from './json/players-list.json';
+import Table from 'react-bootstrap/Table'
 
 export default class SoccerPlayersTable extends Component {
     state = {
-        soccerPlayersArray: []
+        soccerPlayersArray: playersList
     }
-
-    componentDidMount() {
-        axios.get(`https://v3.football.api-sports.io/players?id=276&season=2019`, {
-          headers: {
-            "x-rapidapi-host": "v3.football.api-sports.io",
-            "x-rapidapi-key": "be8b591623mshdbaa2d92a2c0ea8p133325jsn0b45d3589f7c"
-          }
-        }).then(res => {
-            const soccerPlayers = res.data;
-            console.log(soccerPlayers);
-            this.setState({ soccerPlayers });
-          })
-    }
+    rows = playersList;
+    renderPerson(player, index) {
+        return (
+          <tr key={index}>
+            <td><strong>{player.name}</strong></td>
+            <td><img width="100" src={player.picture}/></td>
+            <td><img width="100" src={player.country}/></td>
+            <td><span>{player.Club}</span></td>
+          </tr>
+        )
+      }
 
     render() {
-        return(
-         <section>
-              <div className="card">
-                Tommy
-               </div>
-         </section>
-        )
+       return <section className="card">
+           <Table striped condensed hover>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>picture</th>
+      <th>country</th>
+      <th>club</th>
+    </tr>
+  </thead>
+  <tbody>
+    {playersList.map(this.renderPerson)}
+  </tbody>
+</Table>
+       </section>
       }
 }

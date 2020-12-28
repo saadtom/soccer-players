@@ -1,10 +1,17 @@
 .card {
     width: 90%;
     background: #fff;
+    padding: 10px;
 }
 
 section{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px auto;
+    font-size: 12px;
 } 
+
+img {
+    height: auto;
+  }
