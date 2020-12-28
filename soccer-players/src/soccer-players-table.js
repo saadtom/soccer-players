@@ -8,7 +8,7 @@ export default class SoccerPlayersTable extends Component {
         soccerPlayersArray: playersList
     }
     rows = playersList;
-    renderPerson(player, index) {
+    renderPlayer(player, index) {
         return (
           <tr key={index}>
             <td><strong>{player.name}</strong></td>
@@ -22,18 +22,18 @@ export default class SoccerPlayersTable extends Component {
     render() {
        return <section className="card">
            <Table striped condensed hover>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>picture</th>
-      <th>country</th>
-      <th>club</th>
-    </tr>
-  </thead>
-  <tbody>
-    {playersList.map(this.renderPerson)}
-  </tbody>
-</Table>
-       </section>
+               <thead>
+                <tr>
+                <th>Name</th>
+                <th>picture</th>
+                <th>country</th>
+                <th>club</th>
+                </tr>
+               </thead>
+               <tbody>
+                    {playersList.map(this.renderPlayer)}
+               </tbody>
+            </Table>
+           </section>
       }
 }
