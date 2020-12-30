@@ -12,7 +12,7 @@ export default class SoccerPlayersTable extends Component {
     renderPlayer(player, index) {
         return (
           <tr key={index}>
-            <td><span><Link to="/player-profile">{player.name}</Link></span></td>
+            <td><span><Link to={`/player-profile/${player.id}`}>{player.name}</Link></span></td>
             <td><img width="80" src={player.picture} alt={player.name}/></td>
             <td><img width="150" src={player.country} alt={player.name} /></td>
             <td><span>{player.Club}</span></td>

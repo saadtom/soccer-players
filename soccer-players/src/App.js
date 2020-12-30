@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-          <Route path="/player-profile" component={PlayerProfile}></Route>
+          <Route path="/player-profile/:id" component={PlayerProfile}></Route>
           <Route exact path="/" component={SoccerPlayersTable}></Route>
         </Switch>
     </BrowserRouter>
